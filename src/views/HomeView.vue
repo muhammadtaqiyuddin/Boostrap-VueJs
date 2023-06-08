@@ -1,13 +1,13 @@
 <script setup>
-import HeroSection from '../components/HeroSection.vue';
-import Navbar from '../components/Navbar.vue';
+import Body from "../components/Body.vue";
+import Navbar from "../components/Navbar.vue";
 </script>
 
 <template>
   <div class="flex">
     <Navbar />
     <main>
-      <HeroSection />
+      <Body />
     </main>
   </div>
 </template>
